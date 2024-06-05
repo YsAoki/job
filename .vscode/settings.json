@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 240
+}
