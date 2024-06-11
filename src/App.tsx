@@ -1,11 +1,20 @@
-import { FC } from 'react'
-import "reset-css"
-import "./style.css"
-
-const App:FC = () => {
+import { FC } from "react";
+import { BrowserRouter } from "react-router-dom";
+import "reset-css";
+import { ThemeProvider } from "styled-components";
+import ReactRouter from "./router";
+import "./style.css";
+import { theme } from "./theme/theme";
+const App: FC = () => {
   return (
-    <div></div>
-  )
-}
+    <div>
+      <BrowserRouter>
+        <ThemeProvider theme={theme}>
+          <ReactRouter />
+        </ThemeProvider>
+      </BrowserRouter>
+    </div>
+  );
+};
 
-export default App
+export default App;
