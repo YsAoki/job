@@ -1,9 +1,7 @@
-import React, { FC } from 'react'
+import { FC } from "react";
 
-const TopPage:FC = () => {
-  return (
-    <div>TopPage</div>
-  )
-}
+const TopPage: FC = () => {
+  return <div></div>;
+};
 
-export default TopPage
+export default TopPage;
