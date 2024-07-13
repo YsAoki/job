@@ -5,9 +5,9 @@ import IconButton from "../IconButton";
 
 type Props = ButtonProps & ComponentPropsWithoutRef<"button">;
 
-const IconButtonLike: FC<Props> = ({ $width ="auto", ...other }) => {
+const IconButtonLike: FC<Props> = ({ ...other }) => {
   return (
-    <IconButton icon={<LikeIcon />} $width={$width} {...other}>
+    <IconButton icon={<LikeIcon />} {...other}>
       気になる
     </IconButton>
   );

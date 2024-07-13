@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import { TitleTextStyleProps } from ".";
 
-export const STitleText = styled.h1<{$fontSize: string, $fontWeight: number, $isPrimary: boolean}>`
-  font-size: ${({$fontSize}) => $fontSize};
-  font-weight: ${({$fontWeight}) => $fontWeight};
-  color: ${({$isPrimary, theme}) => $isPrimary? theme.color.primary : theme.fontColor.black};
+export const STitleText = styled.h1<TitleTextStyleProps>`
+  font-size: 1rem;
+  color: ${({$fill, theme}) => $fill? theme.color.primary : theme.fontColor.black};
 `

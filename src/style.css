@@ -2,3 +2,46 @@ body {
   color: #404040;
   background-color: rgb(249, 249, 249);
 }
+
+/* ---------------------------- */
+/* アニメーション */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* アニメーション */
+/* ---------------------------- */
+
+/* ---------------------------- */
+/* プレースホルダー色 */
+input::placeholder {
+  color: "#D5D5D5";
+}
+
+/* Webkitベースのブラウザ (Chrome, Safari, Edgeなど) 用 */
+input::-webkit-input-placeholder {
+  color: "#D5D5D5";
+}
+
+/* Firefox用 */
+input::-moz-placeholder {
+  color: "#D5D5D5";
+}
+
+/* Microsoft Edgeの旧バージョン用 */
+input:-ms-input-placeholder {
+  color: "#D5D5D5";
+}
+
+/* Internet Explorer用 */
+input::-ms-input-placeholder {
+  color: "#D5D5D5";
+}
+
+/* プレースホルダー色 */
+/* ---------------------------- */

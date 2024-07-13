@@ -3,19 +3,13 @@ import SectionObject from "../../atoms/SectionObject";
 import TitleText, { TitleTextProps } from "../../atoms/TitleText";
 import { SSectionTitleWrapper } from "./style";
 
-export type SectionTitleProps = {
-  height?: string;
-};
+type Props = TitleTextProps & ComponentPropsWithoutRef<"div">;
 
-type Props = SectionTitleProps & TitleTextProps & ComponentPropsWithoutRef<"div">;
-
-const SectionTitle: FC<Props> = ({ fontSize, fontWeight, height = "auto", children, ...other }) => {
+const SectionTitle: FC<Props> = ({ children, ...other }) => {
   return (
-    <SSectionTitleWrapper height={height} {...other}>
+    <SSectionTitleWrapper {...other}>
       <SectionObject />
-      <TitleText fontSize={fontSize} fontWeight={fontWeight}>
-        {children}
-      </TitleText>
+      <TitleText>{children}</TitleText>
     </SSectionTitleWrapper>
   );
 };
