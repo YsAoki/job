@@ -1,0 +1,1393 @@
+{
+  "result": {
+      "total": 15,
+      "aggregations": {
+          "discerningConditions": [
+              {
+                  "discerningConditionId": "DC_1",
+                  "discerningConditionName": "職種未経験歓迎",
+                  "count": 1
+              },
+              {
+                  "discerningConditionId": "DC_2",
+                  "discerningConditionName": "社会人未経験歓迎",
+                  "count": 1
+              },
+              {
+                  "discerningConditionId": "DC_3",
+                  "discerningConditionName": "第二新卒歓迎",
+                  "count": 2
+              },
+              {
+                  "discerningConditionId": "DC_4",
+                  "discerningConditionName": "女性活躍",
+                  "count": 1
+              },
+              {
+                  "discerningConditionId": "DC_5",
+                  "discerningConditionName": "学歴不問",
+                  "count": 0
+              },
+              {
+                  "discerningConditionId": "DC_6",
+                  "discerningConditionName": "面接1回のみ",
+                  "count": 2
+              },
+              {
+                  "discerningConditionId": "DC_7",
+                  "discerningConditionName": "書類選考なし",
+                  "count": 0
+              },
+              {
+                  "discerningConditionId": "DC_8",
+                  "discerningConditionName": "完全週休2日制",
+                  "count": 3
+              },
+              {
+                  "discerningConditionId": "DC_9",
+                  "discerningConditionName": "土日祝休み",
+                  "count": 7
+              },
+              {
+                  "discerningConditionId": "DC_10",
+                  "discerningConditionName": "年間休日120日以",
+                  "count": 0
+              },
+              {
+                  "discerningConditionId": "DC_11",
+                  "discerningConditionName": "社宅・家賃補助制度",
+                  "count": 1
+              },
+              {
+                  "discerningConditionId": "DC_12",
+                  "discerningConditionName": "交通費全額支給",
+                  "count": 2
+              },
+              {
+                  "discerningConditionId": "DC_13",
+                  "discerningConditionName": "産休・育休取得実績あり",
+                  "count": 6
+              },
+              {
+                  "discerningConditionId": "DC_14",
+                  "discerningConditionName": "服装自由",
+                  "count": 5
+              },
+              {
+                  "discerningConditionId": "DC_15",
+                  "discerningConditionName": "転勤なし",
+                  "count": 4
+              },
+              {
+                  "discerningConditionId": "DC_16",
+                  "discerningConditionName": "フレックス勤務",
+                  "count": 3
+              },
+              {
+                  "discerningConditionId": "DC_17",
+                  "discerningConditionName": "在宅勤務・リモートワークOK",
+                  "count": 4
+              },
+              {
+                  "discerningConditionId": "DC_18",
+                  "discerningConditionName": "残業殆どなし（月20時間以内）",
+                  "count": 1
+              },
+              {
+                  "discerningConditionId": "DC_19",
+                  "discerningConditionName": "副業OK",
+                  "count": 0
+              },
+              {
+                  "discerningConditionId": "DC_20",
+                  "discerningConditionName": "上場企業",
+                  "count": 0
+              }
+          ],
+          "locations": [
+              {
+                  "regionId": "RI_1",
+                  "regionName": "北海道・東北",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_1-1",
+                          "prefectureName": "北海道"
+                      },
+                      {
+                          "prefectureId": "PI_1-2",
+                          "prefectureName": "青森"
+                      },
+                      {
+                          "prefectureId": "PI_1-3",
+                          "prefectureName": "岩手"
+                      },
+                      {
+                          "prefectureId": "PI_1-4",
+                          "prefectureName": "宮城"
+                      },
+                      {
+                          "prefectureId": "PI_1-5",
+                          "prefectureName": "秋田"
+                      },
+                      {
+                          "prefectureId": "PI_1-6",
+                          "prefectureName": "山形"
+                      },
+                      {
+                          "prefectureId": "PI_1-7",
+                          "prefectureName": "福島"
+                      }
+                  ]
+              },
+              {
+                  "regionId": "RI_2",
+                  "regionName": "関東",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_2-8",
+                          "prefectureName": "茨城"
+                      },
+                      {
+                          "prefectureId": "PI_2-9",
+                          "prefectureName": "栃木"
+                      },
+                      {
+                          "prefectureId": "PI_2-10",
+                          "prefectureName": "群馬"
+                      },
+                      {
+                          "prefectureId": "PI_2-11",
+                          "prefectureName": "埼玉"
+                      },
+                      {
+                          "prefectureId": "PI_2-12",
+                          "prefectureName": "千葉"
+                      },
+                      {
+                          "prefectureId": "PI_2-13",
+                          "prefectureName": "東京"
+                      },
+                      {
+                          "prefectureId": "PI_2-14",
+                          "prefectureName": "神奈川"
+                      }
+                  ]
+              },
+              {
+                  "regionId": "RI_3",
+                  "regionName": "中部・北陸",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_3-15",
+                          "prefectureName": "新潟"
+                      },
+                      {
+                          "prefectureId": "PI_3-16",
+                          "prefectureName": "富山"
+                      },
+                      {
+                          "prefectureId": "PI_3-17",
+                          "prefectureName": "石川"
+                      },
+                      {
+                          "prefectureId": "PI_3-18",
+                          "prefectureName": "福井"
+                      },
+                      {
+                          "prefectureId": "PI_3-19",
+                          "prefectureName": "山梨"
+                      },
+                      {
+                          "prefectureId": "PI_3-20",
+                          "prefectureName": "長野"
+                      },
+                      {
+                          "prefectureId": "PI_3-21",
+                          "prefectureName": "岐阜"
+                      },
+                      {
+                          "prefectureId": "PI_3-22",
+                          "prefectureName": "静岡"
+                      },
+                      {
+                          "prefectureId": "PI_3-23",
+                          "prefectureName": "愛知"
+                      },
+                      {
+                          "prefectureId": "PI_3-24",
+                          "prefectureName": "三重"
+                      }
+                  ]
+              },
+              {
+                  "regionId": "RI_4",
+                  "regionName": "関西",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_4-25",
+                          "prefectureName": "滋賀"
+                      },
+                      {
+                          "prefectureId": "PI_4-26",
+                          "prefectureName": "京都"
+                      },
+                      {
+                          "prefectureId": "PI_4-27",
+                          "prefectureName": "大阪"
+                      },
+                      {
+                          "prefectureId": "PI_4-28",
+                          "prefectureName": "兵庫"
+                      },
+                      {
+                          "prefectureId": "PI_4-29",
+                          "prefectureName": "奈良"
+                      },
+                      {
+                          "prefectureId": "PI_4-30",
+                          "prefectureName": "和歌山"
+                      }
+                  ]
+              },
+              {
+                  "regionId": "RI_5",
+                  "regionName": "中国・四国",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_5-31",
+                          "prefectureName": "鳥取"
+                      },
+                      {
+                          "prefectureId": "PI_5-32",
+                          "prefectureName": "島根"
+                      },
+                      {
+                          "prefectureId": "PI_5-33",
+                          "prefectureName": "岡山"
+                      },
+                      {
+                          "prefectureId": "PI_5-34",
+                          "prefectureName": "広島"
+                      },
+                      {
+                          "prefectureId": "PI_5-35",
+                          "prefectureName": "山口"
+                      },
+                      {
+                          "prefectureId": "PI_5-36",
+                          "prefectureName": "徳島"
+                      },
+                      {
+                          "prefectureId": "PI_5-37",
+                          "prefectureName": "香川"
+                      },
+                      {
+                          "prefectureId": "PI_5-38",
+                          "prefectureName": "愛媛"
+                      },
+                      {
+                          "prefectureId": "PI_5-39",
+                          "prefectureName": "高知"
+                      }
+                  ]
+              },
+              {
+                  "regionId": "RI_6",
+                  "regionName": "九州・沖縄",
+                  "prefectures": [
+                      {
+                          "prefectureId": "PI_6-40",
+                          "prefectureName": "福岡"
+                      },
+                      {
+                          "prefectureId": "PI_6-41",
+                          "prefectureName": "佐賀"
+                      },
+                      {
+                          "prefectureId": "PI_6-42",
+                          "prefectureName": "長崎"
+                      },
+                      {
+                          "prefectureId": "PI_6-43",
+                          "prefectureName": "熊本"
+                      },
+                      {
+                          "prefectureId": "PI_6-44",
+                          "prefectureName": "大分"
+                      },
+                      {
+                          "prefectureId": "PI_6-45",
+                          "prefectureName": "宮崎"
+                      },
+                      {
+                          "prefectureId": "PI_6-46",
+                          "prefectureName": "鹿児島"
+                      },
+                      {
+                          "prefectureId": "PI_6-47",
+                          "prefectureName": "沖縄"
+                      }
+                  ]
+              }
+          ],
+          "employmentStatuses": [
+              {
+                  "employmentId": "EMP_1",
+                  "name": "正社員",
+                  "count": 2
+              },
+              {
+                  "employmentId": "EMP_2",
+                  "name": "パート・アルバイト",
+                  "count": 0
+              },
+              {
+                  "employmentId": "EMP_3",
+                  "name": "派遣",
+                  "count": 1
+              },
+              {
+                  "employmentId": "EMP_4",
+                  "name": "契約社員",
+                  "count": 12
+              },
+              {
+                  "employmentId": "EMP_5",
+                  "name": "業務委託",
+                  "count": 0
+              },
+              {
+                  "employmentId": "EMP_6",
+                  "name": "フリーランス",
+                  "count": 0
+              }
+          ],
+          "occupations": [
+              {
+                  "classificationId": "OCC_1",
+                  "name": "営業",
+                  "count": 3,
+                  "items": [
+                      {
+                          "id": "OCC_1-1",
+                          "name": "法人営業",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_1-2",
+                          "name": "個人営業",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_1-3",
+                          "name": "ルート営業、代理店営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-4",
+                          "name": "インサイドセールス、カウンターセールス、カスタマーサクセス",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_1-5",
+                          "name": "IT・技術・システム営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-6",
+                          "name": "メディカル営業（MR、医療機器営業）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-7",
+                          "name": "海外営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-8",
+                          "name": "営業マネージャー・営業管理",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-9",
+                          "name": "テレマーケティング、コールセンター運営",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-10",
+                          "name": "人材コーディネーター、キャリアコンサルタント、人材系営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_1-11",
+                          "name": "その他営業系",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_2",
+                  "name": "企画・事務・管理・マーケティング",
+                  "count": 6,
+                  "items": [
+                      {
+                          "id": "OCC_2-12",
+                          "name": "経営幹部、経営企画、事業企画",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-13",
+                          "name": "広告宣伝、PR、広報・IR",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-14",
+                          "name": "営業企画、販促企画、商品企画",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-15",
+                          "name": "Webマーケティング、リサーチ、分析",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_2-16",
+                          "name": "経理、財務、会計、内部監査",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-17",
+                          "name": "人事・労務、総務",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-18",
+                          "name": "法務、特許・知財",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-19",
+                          "name": "一般事務、営業事務、秘書、受付",
+                          "count": 5
+                      },
+                      {
+                          "id": "OCC_2-20",
+                          "name": "通訳、翻訳",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-21",
+                          "name": "貿易、物流、購買、資材",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-22",
+                          "name": "カスタマーサポート・ユーザーサポート",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_2-23",
+                          "name": "その他企画・事務・管理系",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_3",
+                  "name": "販売・アミューズメント",
+                  "count": 0,
+                  "items": [
+                      {
+                          "id": "OCC_3-24",
+                          "name": "マーチャンダイザー、バイヤー、ディストリビューター",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-25",
+                          "name": "スーパーバイザー、店舗開発（ファッション、流通・小売）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-26",
+                          "name": "スーパーバイザー、店舗開発（飲食・フード、アミューズメント）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-27",
+                          "name": "店長・店長候補（ファッション、流通・小売）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-28",
+                          "name": "店長・店長候補（飲食・フード、アミューズメント）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-29",
+                          "name": "販売・接客スタッフ、売り場担当",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-30",
+                          "name": "ホールスタッフ、サービススタッフ",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-31",
+                          "name": "調理師、シェフ、パティシエ、調理補助",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_3-32",
+                          "name": "その他販売・サービス系",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_4",
+                  "name": "医療・福祉",
+                  "count": 0,
+                  "items": [
+                      {
+                          "id": "OCC_4-33",
+                          "name": "薬剤師・管理薬剤師、登録販売者",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_4-34",
+                          "name": "医師、看護師、技師・技工士、カウンセラー",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_4-35",
+                          "name": "医療事務、医療秘書",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_4-36",
+                          "name": "福祉・介護施設運営",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_4-37",
+                          "name": "福祉・介護スタッフ、栄養士",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_5",
+                  "name": "美容・ブライダル・ホテル",
+                  "count": 1,
+                  "items": [
+                      {
+                          "id": "OCC_5-38",
+                          "name": "ブライダル、葬祭系",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_5-39",
+                          "name": "旅行系",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_5-40",
+                          "name": "ホテル、旅館、宿泊施設系",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_5-41",
+                          "name": "美容師・理容師",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_5-42",
+                          "name": "エステ・リラクゼーション系",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_6",
+                  "name": "保育・教育・通訳",
+                  "count": 1,
+                  "items": [
+                      {
+                          "id": "OCC_6-43",
+                          "name": "教室長・スクール運営",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_6-44",
+                          "name": "教員、講師、インストラクター",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_6-45",
+                          "name": "通訳・翻訳",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_6-46",
+                          "name": "保育士",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_7",
+                  "name": "コンサルタント・金融",
+                  "count": 0,
+                  "items": [
+                      {
+                          "id": "OCC_7-47",
+                          "name": "金融関連営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_7-48",
+                          "name": "金融系専門職",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_7-49",
+                          "name": "不動産関連営業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_7-50",
+                          "name": "不動産系専門職",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_7-51",
+                          "name": "コンサルタント、リサーチャー、士業",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_7-52",
+                          "name": "その他専門職系",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_8",
+                  "name": "公共サービス",
+                  "count": 0,
+                  "items": [
+                      {
+                          "id": "OCC_8-53",
+                          "name": "公務員・警察・消防・自衛隊",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_8-54",
+                          "name": "団体・学校法人職員",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_9",
+                  "name": "クリエイティブ",
+                  "count": 1,
+                  "items": [
+                      {
+                          "id": "OCC_9-55",
+                          "name": "広告・グラフィック",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_9-56",
+                          "name": "編集・制作",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_9-57",
+                          "name": "印刷",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_9-58",
+                          "name": "ファッション",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_9-59",
+                          "name": "工業デザイン・インテリア・空間デザイン",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_9-60",
+                          "name": "放送・映像・音響・イベント・芸能",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_10",
+                  "name": "ITエンジニア",
+                  "count": 3,
+                  "items": [
+                      {
+                          "id": "OCC_10-61",
+                          "name": "コンサルタント・アナリスト・プリセールス",
+                          "count": 1
+                      },
+                      {
+                          "id": "OCC_10-62",
+                          "name": "システム開発（WEB・オープン・モバイル系",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-63",
+                          "name": "システム開発（汎用機系",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-64",
+                          "name": "システム開発（組み込み・ファームウェア・制御系）",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-65",
+                          "name": "パッケージソフト・ミドルウェア開発",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-66",
+                          "name": "ネットワーク・通信インフラ・サーバー設計・構築",
+                          "count": 2
+                      },
+                      {
+                          "id": "OCC_10-67",
+                          "name": "テクニカルサポート・監視・運用・保守",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-68",
+                          "name": "社内システム",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_10-69",
+                          "name": "研究開発・特許・品質管理・その他",
+                          "count": 0
+                      }
+                  ]
+              },
+              {
+                  "classificationId": "OCC_11",
+                  "name": "建築・土木",
+                  "count": 0,
+                  "items": [
+                      {
+                          "id": "OCC_11-70",
+                          "name": "設計・積算・測量・構造解析",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_11-71",
+                          "name": "施工管理・設備・環境保全",
+                          "count": 0
+                      },
+                      {
+                          "id": "OCC_11-72",
+                          "name": "研究開発・品質管理・特許その他",
+                          "count": 0
+                      }
+                  ]
+              }
+          ]
+      },
+      "items": [
+          {
+              "jobId": "1",
+              "companyId": "28",
+              "companyName": "株式会社サンプル28",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制test",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "3",
+                      "discerningConditionName": "第二新卒歓迎"
+                  },
+                  {
+                      "discerningConditionId": "1",
+                      "discerningConditionName": "職種未経験歓迎"
+                  },
+                  {
+                      "discerningConditionId": "2",
+                      "discerningConditionName": "社会人未経験歓迎"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "2",
+              "companyId": "2",
+              "companyName": "株式会社サンプル2",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_1",
+              "employmentName": "正社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "6",
+                      "discerningConditionName": "面接1回のみ"
+                  },
+                  {
+                      "discerningConditionId": "11",
+                      "discerningConditionName": "社宅・家賃補助制度"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "4",
+              "companyId": "28",
+              "companyName": "株式会社サンプル28",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "16",
+                      "discerningConditionName": "フレックス勤務"
+                  },
+                  {
+                      "discerningConditionId": "17",
+                      "discerningConditionName": "在宅勤務・リモートワークOK"
+                  },
+                  {
+                      "discerningConditionId": "18",
+                      "discerningConditionName": "残業殆どなし（月20時間以内）"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "5",
+              "companyId": "5",
+              "companyName": "株式会社サンプル4",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_3",
+              "employmentName": "派遣",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "14",
+                      "discerningConditionName": "服装自由"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "6",
+              "companyId": "6",
+              "companyName": "株式会社サンプル5",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "4",
+                      "discerningConditionName": "女性活躍"
+                  },
+                  {
+                      "discerningConditionId": "6",
+                      "discerningConditionName": "面接1回のみ"
+                  },
+                  {
+                      "discerningConditionId": "3",
+                      "discerningConditionName": "第二新卒歓迎"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "7",
+              "companyId": "28",
+              "companyName": "株式会社サンプル28",
+              "jobDescription": "サンプル",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_1",
+              "employmentName": "正社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "14",
+                      "discerningConditionName": "服装自由"
+                  },
+                  {
+                      "discerningConditionId": "12",
+                      "discerningConditionName": "交通費全額支給"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "8",
+              "companyId": "39",
+              "companyName": "株式会社サンプル39",
+              "jobDescription": "高校の先生やりまーす",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "教育",
+              "targetCandidates": "教員免許持っている方",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "8",
+                      "discerningConditionName": "完全週休2日制"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "9",
+              "companyId": "46",
+              "companyName": "株式会社サンプル46",
+              "jobDescription": "編集やりまーす",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "編集やりまーす",
+              "targetCandidates": "編集やりまーす編集やりまーす編集やりまーす",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "14",
+                      "discerningConditionName": "服装自由"
+                  },
+                  {
+                      "discerningConditionId": "8",
+                      "discerningConditionName": "完全週休2日制"
+                  },
+                  {
+                      "discerningConditionId": "16",
+                      "discerningConditionName": "フレックス勤務"
+                  },
+                  {
+                      "discerningConditionId": "17",
+                      "discerningConditionName": "在宅勤務・リモートワークOK"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "10万/本",
+              "salaryIncreaseBonus": "10万/本",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "10",
+              "companyId": "57",
+              "companyName": "株式会社サンプル57",
+              "jobDescription": "設計やりますー",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "設計やりますー設計やりますー設計やりますー",
+              "targetCandidates": "設計やりますー設計やりますー設計やりますー設計やりますー設計やりますー設計やりますー",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "14",
+                      "discerningConditionName": "服装自由"
+                  },
+                  {
+                      "discerningConditionId": "8",
+                      "discerningConditionName": "完全週休2日制"
+                  },
+                  {
+                      "discerningConditionId": "16",
+                      "discerningConditionName": "フレックス勤務"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  },
+                  {
+                      "discerningConditionId": "17",
+                      "discerningConditionName": "在宅勤務・リモートワークOK"
+                  }
+              ],
+              "jobLocationText": "本社、大阪、京都、三重",
+              "salary": "30万",
+              "salaryIncreaseBonus": "30万",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "11",
+              "companyId": "58",
+              "companyName": "株式会社サンプ58",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "15",
+                      "discerningConditionName": "転勤なし"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "12",
+              "companyId": "58",
+              "companyName": "株式会社サンプ58",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "15",
+                      "discerningConditionName": "転勤なし"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "13",
+              "companyId": "58",
+              "companyName": "株式会社サンプ58",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "15",
+                      "discerningConditionName": "転勤なし"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "14",
+              "companyId": "58",
+              "companyName": "株式会社サンプ58",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/shopImage.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "15",
+                      "discerningConditionName": "転勤なし"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  },
+                  {
+                      "discerningConditionId": "13",
+                      "discerningConditionName": "産休・育休取得実績あり"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "15",
+              "companyId": "36",
+              "companyName": "株式会社サンプル36",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/20230917124235-sigmund-Fa9b57hffnM-unsplash.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "12",
+                      "discerningConditionName": "交通費全額支給"
+                  },
+                  {
+                      "discerningConditionId": "17",
+                      "discerningConditionName": "在宅勤務・リモートワークOK"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          },
+          {
+              "jobId": "16",
+              "companyId": "28",
+              "companyName": "株式会社サンプル28",
+              "jobDescription": "未経験歓迎の営業職 / 月平均残業10h / 完全週休2日制",
+              "jobImage": "https://ys-training-react-pf.preview-ysinc.work/image/job/20230917125440-sigmund-Fa9b57hffnM-unsplash.jpg",
+              "publicationStatus": "PUBLISHED",
+              "publicationPeriod": {
+                  "startDate": "2023-08-01 00:00:00",
+                  "endDate": "2023-08-30 23:59:59"
+              },
+              "isFavorite": false,
+              "applicationStatus": "PRE_APPLICATION",
+              "jobResponsibilities": "サンプルテキスト",
+              "targetCandidates": "サンプルテキスト",
+              "employmentId": "EMP_4",
+              "employmentName": "契約社員",
+              "discerningConditions": [
+                  {
+                      "discerningConditionId": "14",
+                      "discerningConditionName": "服装自由"
+                  },
+                  {
+                      "discerningConditionId": "9",
+                      "discerningConditionName": "土日祝休み"
+                  }
+              ],
+              "jobLocationText": "サンプルテキスト",
+              "salary": "サンプルテキスト",
+              "salaryIncreaseBonus": "サンプルテキスト",
+              "allowances": "役職手当(営業主任最大10万円、店長代理最大20万円)",
+              "holidays": "年間休日【110日】(年間105日＋計画年休5日)",
+              "employeeBenefits": "社員紹介制度（1名につき10万円～最大30万円）",
+              "otherAllowances": "別宅に世帯をもって単身赴任の場合、家賃全額免除"
+          }
+      ],
+      "pagination": {
+          "total": 1,
+          "page": 1,
+          "offset": 50,
+          "isPrevActive": false,
+          "isNextActive": false
+      }
+  },
+  "status": true
+}

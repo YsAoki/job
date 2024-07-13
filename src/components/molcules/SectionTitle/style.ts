@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { SectionTitleProps } from ".";
+import FlexBox from "../../atoms/FlexBox";
 
-export const SSectionTitleWrapper = styled.div<SectionTitleProps>`
-  display: flex;
+export const SSectionTitleWrapper = styled(FlexBox)`
   align-items: center;
-  height: ${({height}) => height};
+  height: auto;
+  margin-bottom: 2.22rem;
 `

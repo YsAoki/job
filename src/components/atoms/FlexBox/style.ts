@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const SFlexBox = styled.div<{$alignItems: string, $justifyContent: string, $flexDirection: string}>`
+export const SFlexBox = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: ${({ $alignItems }) => $alignItems};
-  justify-content: ${({ $justifyContent }) => $justifyContent};
-  flex-direction: ${({ $flexDirection }) => $flexDirection};
 `;

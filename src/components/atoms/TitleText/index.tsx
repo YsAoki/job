@@ -3,23 +3,18 @@ import { STitleText } from "./style";
 
 export type TitleTextProps = {
   tag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
-  fontSize?: string;
-  fontWeight?: number;
-  isPrimary?: boolean;
+  fill?: boolean;
+};
+
+export type TitleTextStyleProps = {
+  $fill?: boolean;
 };
 
 type Props = TitleTextProps & ComponentPropsWithoutRef<"h1">;
 
-const TitleText: FC<Props> = ({
-  tag = "h1",
-  fontSize = "1rem",
-  fontWeight = 400,
-  isPrimary = false,
-  children,
-  ...other
-}) => {
+const TitleText: FC<Props> = ({ tag = "h1", fill = false, children, ...other }) => {
   return (
-    <STitleText as={tag} $fontSize={fontSize} $fontWeight={fontWeight} $isPrimary={isPrimary} {...other}>
+    <STitleText as={tag} $fill={fill} {...other}>
       {children}
     </STitleText>
   );

@@ -1,23 +1,15 @@
-import { ComponentPropsWithoutRef, FC } from "react";
+import { ComponentPropsWithoutRef, ElementType, FC } from "react";
 import { SFlexBox } from "./style";
 
 export type FlexBoxProps = {
-  alignItems?: string;
-  justifyContent?: string;
-  flexDirection?: string;
+  as?: ElementType;
 };
 
 type Props = FlexBoxProps & ComponentPropsWithoutRef<"div">;
 
-const FlexBox: FC<Props> = ({
-  alignItems = "initial",
-  justifyContent = "initial",
-  flexDirection = "initial",
-  children,
-  ...other
-}) => {
+const FlexBox: FC<Props> = ({ as = "div", children, ...other }) => {
   return (
-    <SFlexBox $alignItems={alignItems} $justifyContent={justifyContent} $flexDirection={flexDirection} {...other}>
+    <SFlexBox as={as} {...other}>
       {children}
     </SFlexBox>
   );

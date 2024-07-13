@@ -1,21 +1,20 @@
 import { ComponentPropsWithoutRef, FC, ReactNode } from "react";
-import Button, { ButtonProps } from "../../atoms/Button";
-import FlexBox from "../../atoms/FlexBox";
-import { SIconSpan } from "./style";
+import Button, { ButtonStyleProps } from "../../atoms/Button";
+import { SFlexBox, SIconSpan } from "./style";
 
 type IconButtonProps = {
   icon: ReactNode;
 };
 
-type Props = IconButtonProps & ButtonProps & ComponentPropsWithoutRef<"button">;
+type Props = IconButtonProps & ButtonStyleProps & ComponentPropsWithoutRef<"button">;
 
-const IconButton: FC<Props> = ({ icon, $width = "auto", $fill = false, children, ...other }) => {
+const IconButton: FC<Props> = ({ icon, $fill = false, children, ...other }) => {
   return (
-    <Button $width={$width} $fill={$fill} {...other}>
-      <FlexBox alignItems="center">
+    <Button fill={$fill} {...other}>
+      <SFlexBox>
         <SIconSpan>{icon}</SIconSpan>
         {children}
-      </FlexBox>
+      </SFlexBox>
     </Button>
   );
 };

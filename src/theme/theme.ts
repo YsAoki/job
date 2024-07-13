@@ -5,6 +5,11 @@ export const theme = {
   },
   fontColor: {
     black: "#404040",
-    white: "#fff"
+    white: "#fff",
+    grey: "#D5D5D5",
+    blue: "#1D7DDD"
+  },
+  borderColor: {
+    grey: "#D5D5D5"
   }
 }
