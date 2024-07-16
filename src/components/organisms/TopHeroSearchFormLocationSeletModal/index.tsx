@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { PREFECTURE_DEFAULT } from "../../../constatns";
 import { LocationInfo, Prefecture } from "../../../types/apiJobs";
 import { isEqual } from "../../../utils";
 import Button from "../../atoms/Button";
@@ -14,7 +15,6 @@ import {
   SSelectAreaWrapper,
   STitleText,
 } from "./style";
-import { PREFECTURE_DEFAULT } from "../../../constatns";
 
 type TopHeroSearchFormLocationSelectModalProps = {
   locations?: LocationInfo[];
