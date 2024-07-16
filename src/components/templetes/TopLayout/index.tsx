@@ -2,6 +2,7 @@ import { FC } from "react";
 import { ApiJobsResult } from "../../../types/apiJobs";
 import Header from "../../organisms/Header";
 import TopHeroSearch from "../../organisms/TopHeroSearch";
+import TopNewArrive from "../../organisms/TopNewArrive";
 
 type Props = {
   userIsLogin: boolean;
@@ -18,10 +19,13 @@ const TopLayout: FC<Props> = ({ userIsLogin, setUserIsLogin, jobsInfo, jobsInfoL
     <>
       <Header userIsLogin={true} />
       {jobsInfo && (
-        <TopHeroSearch
-          employmentStatuses={jobsInfoResult?.aggregations.employmentStatuses}
-          locations={jobsInfoResult?.aggregations.locations}
-        />
+        <>
+          <TopHeroSearch
+            employmentStatuses={jobsInfoResult?.aggregations.employmentStatuses}
+            locations={jobsInfoResult?.aggregations.locations}
+          />
+          <TopNewArrive userIsLogin={userIsLogin} items={jobsInfoResult?.items} />
+        </>
       )}
     </>
   );

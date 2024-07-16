@@ -7,5 +7,5 @@ export const STopHeroSearchWrapper = styled.div`
   position: relative;
   background-image: url(${HeroUrl});
   background-size: cover;
-  /* background-position: center; */
+  margin-bottom: 6.75rem;
 `
