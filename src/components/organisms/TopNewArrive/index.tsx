@@ -7,6 +7,7 @@ import Container from "../../atoms/Container";
 import SectionTitle from "../../molcules/SectionTitle";
 import SwiperArrowButton from "../../molcules/SwiperArrowButton";
 import TopNewArriveCard from "../TopNewArriveCard";
+import { SSwiperWrapper } from "./style";
 
 type TopNewArriveProps = {
   userIsLogin: boolean;
@@ -38,7 +39,7 @@ const TopNewArrive: FC<Props> = ({ userIsLogin, items }) => {
   return (
     <Container>
       <SectionTitle>新着求人</SectionTitle>
-      <div style={{ position: "relative", width: "1000px" }}>
+      <SSwiperWrapper>
         {showSlidePrev && <SwiperArrowButton direction="left" onClick={onClickSlidePrev} />}
         {showSlideNext && <SwiperArrowButton direction="right" onClick={onClickSlideNext} />}
         <Swiper
@@ -55,7 +56,7 @@ const TopNewArrive: FC<Props> = ({ userIsLogin, items }) => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </SSwiperWrapper>
     </Container>
   );
 };
