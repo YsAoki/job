@@ -9,7 +9,7 @@ const SectionTitle: FC<Props> = ({ children, ...other }) => {
   return (
     <SSectionTitleWrapper {...other}>
       <SectionObject />
-      <STitleText>{children}</STitleText>
+      <STitleText tag="h2">{children}</STitleText>
     </SSectionTitleWrapper>
   );
 };
