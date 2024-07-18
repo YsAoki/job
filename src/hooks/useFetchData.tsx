@@ -21,7 +21,6 @@ const useFetchData = <T,>(filePath: string, options?: FetchOptions) => {
       };
       const response = await httpClient.get<T>(filePath, config);
       setData(response.data);
-      console.log(response.data);
     } catch (error) {
       setError(error as Error);
     } finally {

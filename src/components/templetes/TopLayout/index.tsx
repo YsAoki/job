@@ -3,14 +3,18 @@ import { ApiJobsResult } from "../../../types/apiJobs";
 import Header from "../../organisms/Header";
 import TopHeroSearch from "../../organisms/TopHeroSearch";
 import TopNewArrive from "../../organisms/TopNewArrive";
+import TopSearchWorkPlace from "../../organisms/TopSearchWorkPlace";
+import { STopContentsFlexBox } from "./style";
 
-type Props = {
+type TopLayoutProps = {
   userIsLogin: boolean;
   setUserIsLogin: () => void;
   jobsInfo: ApiJobsResult;
   jobsInfoLoading: boolean;
   jobsInfoError: Error | null;
 };
+
+type Props = TopLayoutProps;
 
 const TopLayout: FC<Props> = ({ userIsLogin, setUserIsLogin, jobsInfo, jobsInfoLoading, jobsInfoError }) => {
   const jobsInfoResult = jobsInfo ? jobsInfo.result : null;
@@ -24,7 +28,11 @@ const TopLayout: FC<Props> = ({ userIsLogin, setUserIsLogin, jobsInfo, jobsInfoL
             employmentStatuses={jobsInfoResult?.aggregations.employmentStatuses}
             locations={jobsInfoResult?.aggregations.locations}
           />
-          <TopNewArrive userIsLogin={userIsLogin} items={jobsInfoResult?.items} />
+          <STopContentsFlexBox>
+            <TopNewArrive userIsLogin={userIsLogin} items={jobsInfoResult?.items} />
+            <TopSearchWorkPlace locations={jobsInfoResult?.aggregations.locations} />
+            
+          </STopContentsFlexBox>
         </>
       )}
     </>

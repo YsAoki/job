@@ -3,6 +3,10 @@ body {
   background-color: rgb(249, 249, 249);
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* ---------------------------- */
 /* アニメーション */
 
