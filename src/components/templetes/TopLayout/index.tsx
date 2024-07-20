@@ -3,6 +3,7 @@ import { ApiJobsResult } from "../../../types/apiJobs";
 import Header from "../../organisms/Header";
 import TopHeroSearch from "../../organisms/TopHeroSearch";
 import TopNewArrive from "../../organisms/TopNewArrive";
+import TopSearchWorkKind from "../../organisms/TopSearchWorkKind";
 import TopSearchWorkPlace from "../../organisms/TopSearchWorkPlace";
 import { STopContentsFlexBox } from "./style";
 
@@ -31,7 +32,7 @@ const TopLayout: FC<Props> = ({ userIsLogin, setUserIsLogin, jobsInfo, jobsInfoL
           <STopContentsFlexBox>
             <TopNewArrive userIsLogin={userIsLogin} items={jobsInfoResult?.items} />
             <TopSearchWorkPlace locations={jobsInfoResult?.aggregations.locations} />
-            
+            <TopSearchWorkKind occupations={jobsInfoResult?.aggregations.occupations} />
           </STopContentsFlexBox>
         </>
       )}
