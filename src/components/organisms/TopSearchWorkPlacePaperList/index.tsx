@@ -15,7 +15,9 @@ const TopSearchWorkPlacePaperList: FC<Props> = ({ region }) => {
       <SRegionName tag="h3">{region.regionName}</SRegionName>
       <SPrefectureList>
         {region.prefectures.map((prefecture) => (
-          <NavLink to="/">{prefecture.prefectureName}</NavLink>
+          <NavLink key={prefecture.prefectureId} to="/">
+            {prefecture.prefectureName}
+          </NavLink>
         ))}
       </SPrefectureList>
     </SListWrapper>
