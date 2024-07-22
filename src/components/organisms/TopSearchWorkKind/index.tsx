@@ -14,7 +14,7 @@ type Props = TopSearchWorkKindProps;
 const TopSearchWorkKind: FC<Props> = ({ occupations }) => {
   return (
     <Container>
-      <SectionTitle to="/">職種から探す</SectionTitle>
+      <SectionTitle>職種から探す</SectionTitle>
       <SPaperBox>
         <SFlexBox>
           {occupations?.map((occupation) => (
