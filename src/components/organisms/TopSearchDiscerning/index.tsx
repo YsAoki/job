@@ -15,11 +15,11 @@ const TopSearchDiscerning: FC<Props> = ({ discerning }) => {
   return (
     <Container>
       <SectionTitle tag="h2">こだわり条件から探す</SectionTitle>
-      <SPaper>
+      <SPaper as="ul">
         {discerning?.map((item) => (
-          <NavLink key={item.discerningConditionId} to={"/"}>
-            {item.discerningConditionName}
-          </NavLink>
+          <li key={item.discerningConditionId}>
+            <NavLink to={"/"}>{item.discerningConditionName}</NavLink>
+          </li>
         ))}
       </SPaper>
     </Container>
