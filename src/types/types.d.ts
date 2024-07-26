@@ -3,3 +3,8 @@ export type IconProps = {
   height?: string;
   fill?: boolean;
 }
+
+export type BreadCrumb = {
+  to: string,
+  text: string,
+}
