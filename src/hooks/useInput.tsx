@@ -9,7 +9,7 @@ const useInput = (defaultValue: string = "") => {
     [setInput]
   );
 
-  return { input, onChangeInput };
+  return { input, setInput, onChangeInput };
 };
 
 export default useInput;
