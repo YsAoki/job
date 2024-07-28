@@ -10,12 +10,16 @@ type TopSearchWorkPlacePaperListProps = {
 type Props = TopSearchWorkPlacePaperListProps;
 
 const TopSearchWorkPlacePaperList: FC<Props> = ({ region }) => {
+  const generateUrl = (prefectureId: string) => {
+    return `/jobs/search-result?pId=${prefectureId}`;
+  };
+
   return (
     <SListWrapper>
       <SRegionName tag="h3">{region.regionName}</SRegionName>
       <SPrefectureList>
         {region.prefectures.map((prefecture) => (
-          <NavLink key={prefecture.prefectureId} to="/">
+          <NavLink key={prefecture.prefectureId} to={generateUrl(prefecture.prefectureId)}>
             {prefecture.prefectureName}
           </NavLink>
         ))}

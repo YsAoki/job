@@ -42,8 +42,14 @@ const TopHeroSearchForm: FC<Props> = ({ employmentStatuses, locations }) => {
     const queryParams = new URLSearchParams();
     if (userSelectEmploymentStatus) queryParams.set("emp", userSelectEmploymentStatus);
     if (selectedPrefectureIdExtract) queryParams.set("pId", selectedPrefectureIdExtract);
-    if (keywordVal) queryParams.set("kwd", keywordVal);
-    navigate("/?" + queryParams.toString());
+    if (keywordVal) {
+      const keywordArr = keywordVal.split(" ");
+      keywordArr.forEach((item) => {
+        queryParams.append("kwd", item);
+      });
+    }
+    const url = `/jobs/search-result?${queryParams.toString()}`;
+    navigate(url);
   };
 
   return (

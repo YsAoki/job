@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import FlexBox from "../../atoms/FlexBox";
+import NavLink from "../../atoms/NavLink";
 
 export const SFlexBox = styled(FlexBox)`
   align-items: center;
@@ -8,4 +9,12 @@ export const SFlexBox = styled(FlexBox)`
   a, p {
     font-size: 0.75rem;
   }
+`
+
+export const SBreadCrumbsLink = styled(NavLink)`
+  font-size: 0.75rem;
+`
+
+export const SBreadCrumbsText = styled.p`
+  font-size: 0.75rem;
 `
