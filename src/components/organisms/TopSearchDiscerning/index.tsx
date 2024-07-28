@@ -12,15 +12,21 @@ type TopSearchDiscerningProps = {
 type Props = TopSearchDiscerningProps;
 
 const TopSearchDiscerning: FC<Props> = ({ discerning }) => {
+  const urlGenerate = (discerningConditionId: string) => {
+    return `jobs/search-result?dc=${discerningConditionId}`;
+  };
+
   return (
     <Container>
       <SectionTitle tag="h2">こだわり条件から探す</SectionTitle>
-      <SPaper as="ul">
-        {discerning?.map((item) => (
-          <li key={item.discerningConditionId}>
-            <NavLink to={"/"}>{item.discerningConditionName}</NavLink>
-          </li>
-        ))}
+      <SPaper>
+        <ul>
+          {discerning?.map((item) => (
+            <li key={item.discerningConditionId}>
+              <NavLink to={urlGenerate(item.discerningConditionId)}>{item.discerningConditionName}</NavLink>
+            </li>
+          ))}
+        </ul>
       </SPaper>
     </Container>
   );

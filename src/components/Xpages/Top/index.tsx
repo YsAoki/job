@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import useFetchData from "../../../hooks/useFetchData";
-import { ApiJobsResult } from "../../../types/apiJobs"; // ApiJobsResultのインポートを確認してください
+import { ApiJobsResult } from "../../../types/apiJobs"; 
 import TopLayout from "../../templetes/TopLayout";
 
 const Top: FC = () => {

@@ -98,3 +98,12 @@ export type PaginationInfo = {
   isPrevActive: boolean;
   isNextActive: boolean;
 }
+
+// APIクエリパラメータ
+export type ResultQuerys = {
+  keyword:string[] | null, //キーワード検索
+  employmentId: string | null, //雇用形態
+  regionId: string | null, //地方
+  prefectureId: string | null, //都道府県
+  discerningConditionId: string | null, //こだわり条件から探す
+};
