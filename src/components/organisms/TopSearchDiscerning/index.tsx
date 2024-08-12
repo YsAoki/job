@@ -18,7 +18,7 @@ const TopSearchDiscerning: FC<Props> = ({ discerning }) => {
 
   return (
     <Container>
-      <SectionTitle tag="h2">こだわり条件から探す</SectionTitle>
+      <SectionTitle>こだわり条件から探す</SectionTitle>
       <SPaper>
         <ul>
           {discerning?.map((item) => (

@@ -1,1 +1,0 @@
-export const PREFECTURE_DEFAULT = { prefectureId: "", prefectureName: "" };
