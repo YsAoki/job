@@ -2,6 +2,6 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"
   },
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 240
 }

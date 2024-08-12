@@ -1,20 +1,20 @@
 import { FC, useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import useFetchData from "../../../hooks/useFetchData";
-import useQueryParams from "../../../hooks/useQueryParams";
-import { ApiJobsResult, ResultQuerys } from "../../../types/apiJobs";
+import { ApiJobsResult, ResultQueries } from "../../../types/apiJobs";
 import SearchResultLayout from "../../templetes/SearchResultLayout";
 
 const SearchResult: FC = () => {
   const [userIsLogin, setUserIsLogin] = useState(false);
 
-  const query = useQueryParams();
+  const [urlSearchParams] = useSearchParams();
 
-  const resultQuerys: ResultQuerys = {
-    keyword: query.getAll("kwd"), //キーワード検索
-    employmentId: query.get("emp"), //雇用形態
-    regionId: query.get("rId"), //地方
-    prefectureId: query.get("pId"), //都道府県
-    discerningConditionId: query.get("discerningCondition"), //こだわり条件から探す
+  const resultQueries: ResultQueries = {
+    keyword: urlSearchParams.getAll("kwd"), //キーワード検索
+    employmentId: urlSearchParams.get("emp"), //雇用形態
+    regionId: urlSearchParams.get("rId"), //地方
+    prefectureId: urlSearchParams.get("pId"), //都道府県
+    discerningConditionId: urlSearchParams.get("discerningCondition"), //こだわり条件から探す
   };
 
   const {
@@ -26,7 +26,7 @@ const SearchResult: FC = () => {
 
   useEffect(() => {
     fetchJobsInfo();
-  }, [fetchJobsInfo]);
+  }, []);
 
   return (
     <SearchResultLayout
@@ -35,6 +35,7 @@ const SearchResult: FC = () => {
       jobsInfo={jobsInfo as ApiJobsResult}
       jobsInfoLoading={jobsInfoLoading}
       jobsInfoError={jobsInfoError}
+      resultQueries={resultQueries}
     />
   );
 };

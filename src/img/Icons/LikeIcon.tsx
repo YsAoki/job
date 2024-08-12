@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { IconProps } from "../../types/icon";
+import { IconProps } from "../../types/types";
 
 const LikeIcon: FC<IconProps> = ({ width = "1rem", height = "1rem", fill = false }) => {
   const useColor = fill ? "#1D7DDD" : "#fff";

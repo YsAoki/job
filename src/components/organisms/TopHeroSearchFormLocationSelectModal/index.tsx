@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { PREFECTURE_DEFAULT } from "../../../constatns";
+import { EMPTY_STRING, PREFECTURE_DEFAULT } from "../../../constans/default";
 import { LocationInfo, Prefecture } from "../../../types/apiJobs";
 import { isEqual } from "../../../utils";
 import Button from "../../atoms/Button";
@@ -48,7 +48,7 @@ const TopHeroSearchFormLocationSelectModal: FC<Props> = ({
 
   const onClickReset = () => {
     toggleShowModal();
-    setUserSelectedRegionId("");
+    setUserSelectedRegionId(EMPTY_STRING);
     setUserSelectedPrefecture(PREFECTURE_DEFAULT);
   };
 

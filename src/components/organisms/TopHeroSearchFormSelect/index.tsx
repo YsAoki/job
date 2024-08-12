@@ -1,4 +1,5 @@
 import { ChangeEvent, ComponentPropsWithoutRef, FC } from "react";
+import { EMPTY_STRING } from "../../../constans/default";
 import { EmploymentStatusInfo } from "../../../types/apiJobs";
 import Select from "../../atoms/Select";
 import { STopHeroSearchFormSelectWrapper } from "./style";
@@ -21,11 +22,11 @@ const TopHeroSearchFormSelect: FC<Props> = ({
     <STopHeroSearchFormSelectWrapper>
       <Select
         onChange={onChangeUserSelectEmploymentStatus}
-        defaultValue={""}
+        defaultValue={EMPTY_STRING}
         selectedValue={userSelectEmploymentStatus}
         {...other}
       >
-        <option value={""}>雇用形態</option>
+        <option value={EMPTY_STRING}>雇用形態</option>
         {employmentStatuses?.map((item) => (
           <option key={item.employmentId} value={item.employmentId}>
             {item.name}
