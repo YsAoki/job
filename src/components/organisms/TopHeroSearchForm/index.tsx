@@ -7,6 +7,7 @@ import useInput from "../../../hooks/useInput";
 import useSelect from "../../../hooks/useSelect";
 import useToggle from "../../../hooks/useToggle";
 import { EmploymentStatusInfo, LocationInfo, Prefecture } from "../../../types/apiJobs";
+import { isEqual } from "../../../utils";
 import TopHeroSearchFormKeywordInput from "../TopHeroSearchFormKeywordInput";
 import TopHeroSearchFormLocationInput from "../TopHeroSearchFormLocationInput";
 import TopHeroSearchFormLocationSelectModal from "../TopHeroSearchFormLocationSelectModal";
@@ -52,7 +53,7 @@ const TopHeroSearchForm: FC<Props> = ({ employmentStatuses, locations }) => {
       }); //キーワード検索
     }
     // 都道府県が選択されていないかった場合はクエリから地方の選択状態を削除する。
-    const prefectureIsDefault = userSelectedPrefecture === PREFECTURE_DEFAULT;
+    const prefectureIsDefault = isEqual(userSelectedPrefecture, PREFECTURE_DEFAULT);
     if (prefectureIsDefault) queryParams.delete("rId");
 
     const url = `/jobs/search-result?${queryParams.toString()}`;
