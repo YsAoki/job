@@ -3,15 +3,13 @@ import { SButton } from "./style";
 
 export type ButtonProps = {
   fill?: boolean;
-};
+} & ComponentPropsWithoutRef<"button">;
 
 export type ButtonStyleProps = {
   $fill?: boolean;
 };
 
-type Props = ButtonProps & ComponentPropsWithoutRef<"button">;
-
-const Button: FC<Props> = ({ fill = false, children, ...other }) => {
+const Button: FC<ButtonProps> = ({ fill = false, children, ...other }) => {
   return (
     <SButton $fill={fill} {...other}>
       {children}
